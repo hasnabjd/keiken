@@ -3,7 +3,7 @@
 
 ![](images/af5c7047-6331-4a9d-98c0-7aedb3fde353.png)
 
-### all regular files belonging to you; put the result in the file /tmp/findme and errors in/dev/null,
+### all regular files belonging to you; put the result in the file /tmp/findme and errors in/dev/null
 `find / -type f -user hasna -exec ls -l {} + > /tmp/findme 2> /dev/null`
 
 ![](images/d14a83ac-4c8f-4df9-9721-38e7354d8f51.png)
