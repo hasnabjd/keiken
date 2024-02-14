@@ -3,14 +3,13 @@
 ![](images/thisfile.png)
 
 ### Sed & awk
- ## 1-- telephone numbers of the form 123456789
+-- telephone numbers of the form 123456789
 ![](images/num.png)
 
-2--
-
+-- Name extraction with sed
 ![](images/sed.png)
 
-3-- .html to HTM 
+-- .html to HTM 
 ![](images/p.png)
 
 
