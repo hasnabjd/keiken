@@ -1,7 +1,6 @@
 ### all files under the /etc directory whose names begin with rc
 `find /etc -name "rc*"`
-
-Week 1\Day1\images\af5c7047-6331-4a9d-98c0-7aedb3fde353.png
+(images\af5c7047-6331-4a9d-98c0-7aedb3fde353.png)
 
 ### all regular files belonging to you; put the result in the file /tmp/findme and errors in/dev/null,
 
