@@ -29,7 +29,7 @@
 ### How many README files do these subdirectories contain? Don't count anything in the form of "README.a_string".
 `find /usr/share/doc -type d -name "*shell*" -exec find {} -type f -name "README" \; | grep -v "README.a_string" | wc -l`
 
-![](images/q7.png)
+![](images/q6.png)
 
 ### Make a list of files in your home directory that were changed less that 10 hours ago, using grep, but leave out directories.
 `find ~/ -maxdepth 1 -type f -mmin -600 -exec ls -l {} \; | grep -v "/$" `
