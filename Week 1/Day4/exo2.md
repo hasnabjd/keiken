@@ -7,6 +7,7 @@
 
 #### Login
 generation of a new password
+
 ![alt text](image.png)
 
 then login success
@@ -39,11 +40,13 @@ then login success
 ![alt text](image-8.png)
 
 We test with a GET / HTTP/1.1 
+
 ![alt text](image-12.png)
 
 
 ### Intercepting an HTTP Request using Netcat :
 we configured mannually the proxy in the browser
+
 ![alt text](image-10.png)
 
 running
