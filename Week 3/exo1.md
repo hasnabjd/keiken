@@ -34,32 +34,42 @@ nothing has changed because the changes made within the user namespace do not pr
 ![alt text](images/n.png)
 
 pid namespace
+
 ![alt text](images/pid.png)
 
 network namespace
+
 ![alt text](images/net.png)
 
 
 new network namespace called mynet using ip
+
 ![alt text](images/net1.png)
 
 Upping the network
+
 ![alt text](images/net2.png)
 
 -- create a veth pair which should allow communication --
+
 ![alt text](images/c.png)
 
 veth0 & veth1 are associated automatially , now we're linking them to our namespace
+
 ![alt text](images/lin1.png)
 
--adressing-
+-Giving addresses-
+
 ![alt text](images/ad.png)
+
 ![alt text](images/ad1.png)
 
 -- Communicating in both directions --
+
 ![alt text](images/ping.png)
 
-#####  userId
+#####  userIdù
+
 ![alt text](images/nobady.png)
 
 ## Demo 
