@@ -15,8 +15,7 @@
 
 ### Network
  ![alt text](images/i3.png)
-
- -- Processes inside the chroot environment were able to interact with processes and network devices outside the jail. No isolation --
+- Processes inside the chroot environment were able to interact with processes and network devices outside the jail. No isolation
  
  
 ## Namespace
@@ -28,49 +27,67 @@
 ![alt text](images/i6.png)
 
 
--UTS-
+- UTS
 nothing has changed because the changes made within the user namespace do not propagate to the parent namespace or the system level--
 
 ![alt text](images/n.png)
 
-pid namespace
+- pid namespace
 
 ![alt text](images/pid.png)
 
-network namespace
+- network namespace
 
 ![alt text](images/net.png)
 
 
-new network namespace called mynet using ip
+- new network namespace called mynet using ip
 
 ![alt text](images/net1.png)
 
-Upping the network
+- Upping the network
 
 ![alt text](images/net2.png)
 
--- create a veth pair which should allow communication --
+- create a veth pair which should allow communication 
 
 ![alt text](images/c.png)
 
-veth0 & veth1 are associated automatially , now we're linking them to our namespace
+- veth0 & veth1 are associated automatially , now we're linking them to our namespace
 
 ![alt text](images/lin1.png)
 
--Giving addresses-
+- Giving addresses-
 
 ![alt text](images/ad.png)
 
 ![alt text](images/ad1.png)
 
--- Communicating in both directions --
+- Communicating in both directions --
 
 ![alt text](images/ping.png)
 
-#####  userIdù
+#####  userId
 
 ![alt text](images/nobady.png)
+
+## Cgroups
+
+![alt text](images/cgrps.png)
+
+- Assign PID to a cgroup
+
+![alt text](images/cgrps1.png)
+
+- the PID will be killed because of the set memory constraints--
+
+![alt text](images/kl.png)
+
+- new namespace for demonstration
+
+![alt text](images/fp.png)
+
+![alt text](images/se.png)
 
 ## Demo 
 
