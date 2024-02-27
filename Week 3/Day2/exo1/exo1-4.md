@@ -21,6 +21,12 @@
 
 ![alt text](images2/i4-5.png)
 
--   we fetche details about all resources in all namespaces 
+-   Fetching details about all resources in all namespaces 
 
 ![alt text](images2/i4-6.png)
+
+-  Register the node in the cluster
+
+![alt text](images2/i4-7.png)
+
+![alt text](images2/i4-8.png)
