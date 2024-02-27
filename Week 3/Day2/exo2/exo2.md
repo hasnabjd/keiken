@@ -19,8 +19,10 @@
 
 ![alt text](images2/3.png)
 
-- Connecting kubectl to the Kubernetes cluster
-the problem occurs while executing the script so i couldn't not change thee name
+-  Connecting kubectl to the Kubernetes cluster
+
+    the problem occurs while executing the script so i couldn't not change thee name
+    
 ![alt text](images2/4.png)
 
 ## Guided Exercise3: Running and Interacting with Your First Application
