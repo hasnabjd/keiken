@@ -30,3 +30,8 @@
 ![alt text](images2/i4-7.png)
 
 ![alt text](images2/i4-8.png)
+
+#### running a pod containing nginx
+- fixed the kube-test.yaml and now the pod is created
+
+![alt text](images2/i4-9.png)
