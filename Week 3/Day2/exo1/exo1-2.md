@@ -15,7 +15,9 @@
 ![alt text](images2/i1-4.png)
 
 #### check the logs for kubelet (running the kubelet in a standalone mode)
+
 - Reminder : Running kubelet in a standalone mode allows for the deployment and management of Kubernetes nodes that are not part of a larger cluster.
+
 
 ![alt text](images2/i1-5.png)
 
